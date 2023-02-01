@@ -1,0 +1,8 @@
+package com.tjoeun.springBoot.dto;
+
+public class ArticleForm {
+
+	private String title;
+	private String content;
+	
+}

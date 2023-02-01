@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>안녕</h1>
+	
+	<!-- 컨트롤러에서 넘어오는 데이터는 두개의 중괄호로 받는다. -->
+	<h2>{{username}}님 안녕하세요</h2>
+	
+</body>
+</html>

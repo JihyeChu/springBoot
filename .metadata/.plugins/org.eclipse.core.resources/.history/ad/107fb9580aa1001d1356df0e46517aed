@@ -1,0 +1,23 @@
+package com.tjoeun.springBoot.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class ArticleController {
+
+	@GetMapping("/articles/new")
+	public String newArticleForm() {
+		System.out.println("ArticleController의 newArticleForm() 메소드 실행");
+		return "articles/new";
+	}
+	
+	@PostMapping("/articles/create")
+	public String createArticle() {
+		System.out.println("ArticleController의 createArticle() 메소드 실행");
+		System.out.println(form);
+		return "";
+	}
+	
+}

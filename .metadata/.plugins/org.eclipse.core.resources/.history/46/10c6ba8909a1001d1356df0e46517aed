@@ -1,0 +1,5 @@
+package com.tjoeun.springBoot.dto;
+
+public class ArticleForm {
+
+}
